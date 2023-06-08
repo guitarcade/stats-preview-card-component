@@ -9,12 +9,12 @@ export default function Home() {
   return (
     <main className="grid place-content-center min-h-screen">
       <div className="flex max-w-[1100px] rounded-lg overflow-hidden">
-        <div className="bg-primary-2 py-16 pl-16 pr-32 grid">
+        <div className="bg-primary-2 py-16 pl-16 pr-28 grid">
           <h1 className="text-4xl font-semibold text-neutral-1">
             Get <span className="text-primary-3">insights</span> that help your
             business grow.
           </h1>
-          <p className="text-neutral-3 text-sm leading-6">
+          <p className="text-neutral-3 text-sm leading-6 ">
             Discover the benefits of data analytics and make better decisions
             regarding revenue, customer experience, and overall efficiency.
           </p>
