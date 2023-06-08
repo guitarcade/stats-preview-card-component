@@ -1,5 +1,6 @@
 import Image from "next/image";
 import banner from "../public/image-header-mobile.jpg";
+import bannerDesktop from "../public/image-header-desktop.jpg";
 
 import { Lexend_Deca } from "next/font/google";
 
@@ -8,11 +9,11 @@ const lexdec = Lexend_Deca({ subsets: ["latin"] });
 export default function Home() {
   return (
     <main className="grid place-content-center min-h-screen">
-      <div className="flex flex-col md:flex-row-reverse max-w-5xl rounded-lg overflow-hidden m-10">
-        <div className="relative">
-          <div className="relative aspect-video">
+      <div className="flex flex-col lg:flex-row-reverse max-w-5xl rounded-lg overflow-hidden m-10">
+        <div className="relative w-full">
+          <div className="relative aspect-video lg:aspect-square">
             <Image
-              src={banner}
+              src={bannerDesktop}
               alt="banner image"
               fill={true}
               className="object-cover"
