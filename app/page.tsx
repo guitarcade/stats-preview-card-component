@@ -9,25 +9,25 @@ const lexdec = Lexend_Deca({ subsets: ["latin"] });
 export default function Home() {
   return (
     <main className="grid place-content-center min-h-screen">
-      <div className="flex flex-col md:flex-row-reverse max-w-5xl rounded-lg overflow-hidden m-10">
+      <div className="flex flex-col lg:flex-row-reverse max-w-5xl rounded-lg overflow-hidden m-10">
         <div className="relative w-full">
-          <div className="relative aspect-video md:aspect-square">
+          <div className="relative aspect-video lg:aspect-square">
             <Image
               src={banner}
               alt="banner image"
               fill={true}
-              className="object-cover md:hidden"
+              className="object-cover lg:hidden"
             />
             <Image
               src={bannerDesktop}
               alt="banner image"
               fill={true}
-              className="object-cover hidden md:block"
+              className="object-cover hidden lg:block"
             />
           </div>
           <div className="bg-primary-4 w-full h-full left-0 top-0 absolute z-10 opacity-50"></div>
         </div>
-        <div className="bg-primary-2 p-16 gap-8 grid text-center md:text-left">
+        <div className="bg-primary-2 p-16 gap-8 grid text-center lg:text-left">
           <h1 className="text-4xl font-semibold text-neutral-1">
             Get <span className="text-primary-3">insights</span> that help your
             business grow.
@@ -36,7 +36,7 @@ export default function Home() {
             Discover the benefits of data analytics and make better decisions
             regarding revenue, customer experience, and overall efficiency.
           </p>
-          <div className="flex justify-between flex-col gap-8 md:flex-row self-end">
+          <div className="flex justify-between flex-col gap-8 lg:flex-row self-end">
             <div>
               <h2 className="text-2xl font-semibold text-neutral-1">10k+</h2>
               <p
