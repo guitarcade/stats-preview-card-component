@@ -10,8 +10,8 @@ export default function Home() {
   return (
     <main className="grid place-content-center min-h-screen">
       <div className="flex flex-col lg:flex-row-reverse max-w-5xl rounded-lg overflow-hidden m-10">
-        <div className="relative w-full">
-          <div className="relative aspect-video lg:aspect-square">
+        <div className="relative w-full h-full">
+          <div className="relative aspect-video">
             <Image
               src={banner}
               alt="banner image"
@@ -21,7 +21,6 @@ export default function Home() {
             <Image
               src={bannerDesktop}
               alt="banner image"
-              fill={true}
               className="object-cover hidden lg:block"
             />
           </div>
